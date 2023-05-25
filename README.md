@@ -1,7 +1,8 @@
-#0x16. C - Simple Shell Project
+# 0x16. C - Simple Shell Project
 
-#Requirements
-##General
+# Requirements
+
+## General
 * Allowed editors: vi, vim, emacs
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * All your files should end with a new line
@@ -11,7 +12,7 @@
 * No more than 5 functions per file
 * All your header files should be include guarded
 
-#List of allowed functions and system calls
+# List of allowed functions and system calls
 access (man 2 access)
 chdir (man 2 chdir)
 close (man 2 close)
@@ -44,12 +45,12 @@ wait3 (man 2 wait3)
 wait4 (man 2 wait4)
 write (man 2 write)
 
-#Compilation
+# Compilation
 Your shell will be compiled this way:
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-#Testing
+# Testing
 Your shell should work like this in interactive mode:
 
 $ ./hsh
